@@ -11,7 +11,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 1.55;
-  color: #FF6B09;
+  color: #ff6b09;
   border: 0;
   background-color: transparent;
   -webkit-text-decoration-line: underline;
@@ -36,13 +36,13 @@
 .slider .slick-arrow.slick-prev {
   left: 0;
   border: 0;
-  background: url("/img/prev.svg") 0 0/100% no-repeat;
+  background: url("./img/prev.svg") 0 0/100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
   right: 0;
   border: 0;
-  background: url("/img/next.svg") 0 0/100% no-repeat;
+  background: url("./img/next.svg") 0 0/100% no-repeat;
 }
 
 .container {
