@@ -197,6 +197,9 @@
   padding-left: 82px;
   padding-right: 112px;
   background: #FFFFFF;
+}
+
+.slick-list {
   -webkit-box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
           box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
