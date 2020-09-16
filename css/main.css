@@ -36,13 +36,13 @@
 .slider .slick-arrow.slick-prev {
   left: 0;
   border: 0;
-  background: url("./img/prev.svg") 0 0/100% no-repeat;
+  background: url("../img/prev.svg") 0 0/100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
   right: 0;
   border: 0;
-  background: url("./img/next.svg") 0 0/100% no-repeat;
+  background: url("../img/next.svg") 0 0/100% no-repeat;
 }
 
 .container {
