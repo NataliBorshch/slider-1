@@ -1,10 +1,22 @@
 .slider .slider-item {
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 51px;
-    padding-left: 82px;
-    padding-right: 112px;
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     background: #FFFFFF;
+
+    @media screen and (min-width:688px) {
+        display: flex;
+        padding: 40px;
+    }
+
+    @media screen and(min-width:1320px) {
+        padding-top: 50px;
+        padding-bottom: 51px;
+        padding-left: 82px;
+        padding-right: 112px;
+    }
 
 }
 
@@ -13,14 +25,28 @@
 }
 
 .slider .networks-link {
-    display: inline-flex;
+    display: block;
     width: 30px;
     height: 30px;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .slider .slider-foto {
     text-align: center;
+    margin-bottom: 20px;
+}
 
+.slider-foto img {
+    max-width: 150px;
+
+    @media screen and (min-width:288px) {
+        width: 90px;
+    }
+
+    @media screen and (min-width:688px) {
+        width: 150px;
+    }
 }
